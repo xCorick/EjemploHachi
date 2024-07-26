@@ -179,6 +179,7 @@
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="Siseñor.aspx" />
     <Content Include="Site.Master" />
+    <Content Include="tomate.aspx" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
@@ -239,6 +240,13 @@
     </Compile>
     <Compile Include="Site.Mobile.Master.designer.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
+    </Compile>
+    <Compile Include="tomate.aspx.cs">
+      <DependentUpon>tomate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="tomate.aspx.designer.cs">
+      <DependentUpon>tomate.aspx</DependentUpon>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
